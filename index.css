@@ -1,0 +1,67 @@
+body{
+  display:flex;
+  height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+  flex-grow:1;
+  flex-direction: column;
+}
+.brand{
+  display:flex;
+  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: right;
+}
+.bakeditems{
+  display:flex;
+  background-color: lightblue;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.testimonial{
+  background-color: lightcoral;
+  
+}
+footer{
+  padding: 0.5rem;
+  background-color: yellow;
+  text-align: center;
+}
+ul{
+  border:1px solid greenyellow;
+}
+li{
+  border: 1px solid black;
+  text-align: center;
+
+}
+
+#bread{
+  flex-grow: 1;
+}
+#cakes{
+  flex-grow: 1;
+}
+#muffins{
+  flex-grow: 1;
+}
+#pies{
+  flex-grow: 1;
+}
+#cookies{
+  flex-grow: 1;
+}
+
+#menus{
+ flex-grow:1;
+}
+#catering{
+  flex-grow: 1;
+}
+#recipes{
+  flex-grow: 1;
+}
+#aboutus{
+  flex-grow: 1;
+}
