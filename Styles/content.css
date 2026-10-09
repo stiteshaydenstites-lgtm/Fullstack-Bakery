@@ -1,0 +1,11 @@
+article {
+  display:flex;
+  flex-direction: column;
+  gap: 1ch;
+  padding-right:3ch;
+}
+.testimonial{
+  background-color: lightcoral;
+  padding:2ch;
+  font-style:italic;
+}

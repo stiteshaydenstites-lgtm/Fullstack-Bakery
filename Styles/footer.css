@@ -1,0 +1,9 @@
+footer{
+  display:flex;
+  flex-direction: column;
+  text-align: right;
+  background: lightblue;
+  padding: 2ch;
+  color:black;
+
+}

@@ -1,0 +1,25 @@
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 1ch;
+  color: brown;
+  text-transform: uppercase;
+}
+
+.brand{
+  font-weight:bold;
+  font-size: 2rem;
+}
+nav{
+  display:flex;
+  gap: 3ch;
+}
+nav a{
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color:brown;
+}
